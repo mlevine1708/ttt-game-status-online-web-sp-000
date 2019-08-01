@@ -40,3 +40,9 @@ def winner(board)
     board[winning_combo.first]
   end
 end
+
+def play
+  until over? == true
+    turn
+  end
+end
